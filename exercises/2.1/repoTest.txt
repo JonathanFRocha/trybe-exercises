@@ -1,4 +1,6 @@
-what i'll learn in Trybe
+What i'll learn in Trybe
 - Unix
 - Bash
 - Git
+- HTML
+- CSS
