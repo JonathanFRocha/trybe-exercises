@@ -2,3 +2,4 @@ what i'll learn in Trybe
 - Unix
 - Bash
 - Git
+- React
