@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.baloon,
+.super-mario,
+.goomba,
+.bowser,
+.word {
+  position: absolute;
+}
+
+.super-mario {
+  z-index: 2;
+  width: 200px;
+  left: 10%;
+}
+.goomba {
+  z-index: 1;
+  width: 200px;
+  left: 10%;
+  top: 37%;
+}
+
+.bowser {
+  width: 500px;
+  top: 10%;
+  left: 30%;
+}
+
+.baloon {
+  width: 200px;
+  left: 23%;
+  top: 20%;
+  z-index: 2;
+}
+
+.word {
+  left: 24%;
+  font-size: 1em;
+  font-weight: 700;
+  top: 23%;
+  z-index: 3;
+}
