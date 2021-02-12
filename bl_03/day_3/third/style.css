@@ -1,3 +1,28 @@
 body {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+p {
+  width: 35%;
+  text-align: center;
+}
+
+li {
+  transition: 0.4s;
+  width: 35%;
+}
+
+li:hover {
+  background-color: green;
+}
+
+li:active {
+  font-family: cursive;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+ul,
+ol {
+  list-style: none;
 }
