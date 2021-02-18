@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+.rank-podium {
+  text-align: center;
+}
+
+.second,
+.third {
+  margin: auto;
+  display: inline-block;
+}
+
+.first {
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+}
+
+.second {
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+ul li {
+  list-style: none;
+}
+.rank-prize {
+  text-align: center;
+}
+.rank-prize li {
+  display: inline;
+}
