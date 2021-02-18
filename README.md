@@ -1,6 +1,6 @@
-#This repository is the collection of all solved exercises in the Trybe Course.
+# This repository is the collection of all solved exercises in the Trybe Course.
 
-#About Trybe
+# About Trybe
 
 Trybe is a web development school that has a genuine commitment to the
 professional success of its students. With the Shared Success Model, those who study
