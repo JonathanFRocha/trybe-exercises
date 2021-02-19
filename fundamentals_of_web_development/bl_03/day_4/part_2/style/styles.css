@@ -27,9 +27,8 @@ header {
     rgba(95, 171, 230, 1) 0%,
     rgba(134, 35, 227, 1) 100%
   );
-  margin: 0;
+  margin: 0 0 0 420px;
   padding: 0;
-  position: relative;
 }
 
 ul {
@@ -60,12 +59,15 @@ header a {
 .header_list {
   text-align: center;
 }
-.header_listItem {
+.header_listItem,
+.article_referencesItem {
   display: inline-block;
   margin: 0 30px 10px 30px;
 }
 article {
   background-color: #5fabe6;
+  width: auto;
+  margin-left: 420px;
 }
 
 .article_mainTitle,
@@ -76,14 +78,6 @@ article {
 
 .article_mainTitle {
   padding-top: 20px;
-}
-
-.aside_video {
-  background-color: blue;
-}
-
-footer {
-  background-color: blueviolet;
 }
 
 .article_image {
@@ -115,5 +109,35 @@ td {
   padding: 3px;
 }
 
-.article_container {
+.article_references {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.article_referencesItem a {
+  color: white;
+  font-weight: 500;
+}
+
+.aside_video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  z-index: 1;
+  height: 100%;
+  background-color: #5fabe6;
+  padding: 15px 0 0 15px;
+}
+
+.aside_video h3 {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-left: 420px;
+  text-align: center;
 }
