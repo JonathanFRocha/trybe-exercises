@@ -87,7 +87,7 @@ engineering, agile methodologies and soft skills.
 - [ ] 10-3: _Jest - Simulating Behaviours_
 - [ ] 10-4: _[Project - Jest Async e Mocking]()_
 
-## 2st Subject: Front-end Development :hourglass_flowing_sand:
+## 2nd Subject: Front-end Development :hourglass_flowing_sand:
 
 ##### Chapter 11: Introduction - React
 
@@ -143,7 +143,7 @@ engineering, agile methodologies and soft skills.
 
 - [ ] 19-1: _[Project – Recipe App]()_
 
-## 3st Subject: Development Back-end :hourglass_flowing_sand:
+## 3rd Subject: Development Back-end :hourglass_flowing_sand:
 
 ##### Chapter 20: Introduction – Relational Database
 
@@ -239,7 +239,7 @@ engineering, agile methodologies and soft skills.
 
 - [ ] 34-1: _[Project - Trybeer V2]()_
 
-## 4st Subject: Computer Science :hourglass_flowing_sand:
+## 4th Subject: Computer Science :hourglass_flowing_sand:
 
 ##### Chapter 35: Introduction – Computer Science
 
