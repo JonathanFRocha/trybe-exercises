@@ -1,6 +1,6 @@
 # Trybe
 
-This repository contains all the learning activities developed by _[Jonathan Ferreira Rocha] (https://www.linkedin.com/in/jonathan-ferreira-rocha)_ while studying at [Trybe] (https://www.betrybe.com/): rocket:
+This repository contains all the learning activities developed by _[Jonathan Ferreira Rocha](https://www.linkedin.com/in/jonathan-ferreira-rocha)_ while studying at [Trybe](https://www.betrybe.com/) :rocket:
 
 _"Trybe is a school of the future for anyone who wants to improve their lives and build a successful career in technology, where people only need to pay when they get a good job."_
 
@@ -28,7 +28,7 @@ engineering, agile methodologies and soft skills.
 - [x] 3-2: _HTML & CSS – First steps with CSS_
 - [x] 3-3: _HTML & CSS - Selectors and positioning_
 - [x] 3-4: _HTML Semantic_
-- [x] 3-5: _[Project - HTML & CSS]()_
+- [x] 3-5: _[Project - HTML & CSS](https://github.com/tryber/sd-010-b-project-lessons-learned/pull/38)_
 
 ##### Chapter 4: Introduction - JavaScript
 
