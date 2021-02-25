@@ -8,7 +8,7 @@ There are more than 1500 hours of training that covers fundamentals of web
 development, development, Front-end, Back-end, computer science, software
 engineering, agile methodologies and soft skills.
 
-## 1st Subject: Fundamentals of Web Development :white_check_mark:
+## 1st Subject: Fundamentals of Web Development :hourglass_flowing_sand:
 
 ##### Chapter 1: Introduction - Unix & Shell
 
