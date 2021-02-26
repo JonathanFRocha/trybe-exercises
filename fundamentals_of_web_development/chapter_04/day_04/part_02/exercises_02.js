@@ -131,3 +131,33 @@ console.log(
 );
 
 console.log("------------------");
+
+//Create a function that receives 2 strings. Check that the 2nd string is the end 1st string. Consider that the 2nd string will always have less letters than 1st string.
+
+const doesItMatch = (word, comparable) => {
+  return comparable === word.substring(word.length - comparable.length, word.length);
+};
+
+const names = {
+  first: {
+    name: "trybe",
+    comparable: "be",
+  },
+  second: {
+    name: "joaofernando",
+    comparable: "fernand",
+  },
+};
+
+console.log(
+  `"${names.first.comparable}" is the end of "${names.first.name}"? ${doesItMatch(
+    names.first.name,
+    names.first.comparable
+  )}`
+);
+console.log(
+  `"${names.second.comparable}" is the end of "${names.second.name}"? ${doesItMatch(
+    names.second.name,
+    names.second.comparable
+  )}`
+);
