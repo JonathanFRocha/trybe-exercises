@@ -86,6 +86,7 @@ console.log(
 console.log("------------------");
 // Create a function that takes a array and return the most repeated number
 
+//Sort is applicable
 const mostRepeatedNumber = (arr) => {
   const numberMap = {};
   let mostRepeatedNumber = undefined;
@@ -110,7 +111,23 @@ const mostRepeatedNumber = (arr) => {
 
 const testArray3 = [2, 3, 3, 5, 5, 5, 5, 8, 2, 3];
 
-console.log(mostRepeatedNumber(testArray3));
+console.log(`The most repeated number in [${testArray3}] is ${mostRepeatedNumber(testArray3)}`);
 
 console.log("------------------");
+
 //Create a function that receives an integer and returns the sum of all numbers from 1 to N.
+//Reduce is applicable
+const sumOfAllIntegersBefore = (number) => {
+  let totalSum = 0;
+  for (let currentNumber = 1; currentNumber <= number; currentNumber += 1) {
+    totalSum += currentNumber;
+  }
+  return totalSum;
+};
+const desiredNumber = 7;
+
+console.log(
+  `The sum of all numbers until ${desiredNumber} is ${sumOfAllIntegersBefore(desiredNumber)}`
+);
+
+console.log("------------------");
