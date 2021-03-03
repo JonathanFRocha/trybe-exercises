@@ -40,7 +40,7 @@ engineering, agile methodologies and soft skills.
 
 ##### Chapter 5: Introduction - JavaScript - Projects
 
-- [ ] 5-1: _JavaScript - DOM e selectors_
+- [x] 5-1: _JavaScript - DOM e selectors_
 - [ ] 5-2: _JavaScript – Working with elements_
 - [ ] 5-3: _JavaScript - Events_
 - [ ] 5-4: _JavaScript - Web Storage_
