@@ -35,7 +35,7 @@ engineering, agile methodologies and soft skills.
 - [x] 4-1: _JavaScript – First steps_
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript – Programming logic e Algorithms_
-- [ ] 4-4: _JavaScript - Objects e functions_
+- [x] 4-4: _JavaScript - Objects e functions_
 - [ ] 4-5: _[Project - Playground Functions]()_
 
 ##### Chapter 5: Introduction - JavaScript - Projects
