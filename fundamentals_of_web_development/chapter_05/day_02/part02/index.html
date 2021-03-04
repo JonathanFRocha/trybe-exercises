@@ -73,6 +73,7 @@
         if (idValue.length !== 0) elemen.setAttribute("id", idValue);
         return elemen;
       };
+      //
       const body = document.getElementsByTagName("body")[0];
       const firstTitle = document.createElement("h1");
       firstTitle.innerText = "Exercício 5.2 - JavaScript DOM ";
@@ -81,9 +82,32 @@
       const firstDiv = createElement("div", "main-content");
       body.appendChild(firstDiv);
       //
-      const firstDivChild = createElement("div", "center-content");
-      firstDiv.appendChild(firstDivChild);
-      console.log(firstDivChild);
+      const firstDivDiv = createElement("div", "center-content");
+      firstDiv.appendChild(firstDivDiv);
+      //
+      const firstDivDivP = createElement("p", "", "Whats Up!");
+      firstDivDiv.appendChild(firstDivDivP);
+      //
+      const firstDivLeftDiv = createElement("div", "left-content");
+      const firstDivRightDiv = createElement("div", "right-content");
+      firstDiv.appendChild(firstDivRightDiv);
+      firstDiv.appendChild(firstDivLeftDiv);
+      //
+      const newImg = createElement("img", "small-image");
+      newImg.src = "https://picsum.photos/200";
+      firstDivLeftDiv.appendChild(newImg);
+      //
+      const listLength = 10;
+      const firstUl = createElement("ul");
+      for (let index = 1; index <= listLength; index += 1) {
+        const listItem = createElement("li", "", index);
+        firstUl.appendChild(listItem);
+      }
+      firstDivRightDiv.appendChild(firstUl);
+      for (let index = 1; index < 4; index += 1) {
+        const h3 = createElement("h3", "", `${index}º h3`);
+        firstDiv.appendChild(h3);
+      }
     </script>
   </body>
 </html>
