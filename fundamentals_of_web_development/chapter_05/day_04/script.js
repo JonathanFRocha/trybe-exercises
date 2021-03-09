@@ -68,7 +68,7 @@ const changeLineHeigth = (event) => {
   for (let part of allParagraphs) {
     part.style.lineHeight = lineHeigth;
   }
-  localStorage.setItem("lineHeigth", lineHeigth);
+  localStorage.setItem("lineHeight", lineHeigth);
 };
 
 //Font Family btn
@@ -88,7 +88,60 @@ const changeFontFamily = (event) => {
   localStorage.setItem("fontFamily", fontFamily);
 };
 
+// getLocalStorage attributes
+
+const getData = () => {
+  if (typeof Storage != undefined) {
+    getBackgroundColor();
+    getFontColor();
+    getFontSize();
+    getLineHeigth();
+    getFontFamily();
+  } else {
+    alert("Seu Browser não suporta Storage, os dados não serão mantidos");
+  }
+};
+
+const getBackgroundColor = () => {
+  if (localStorage.background) {
+    content.style.backgroundColor = localStorage.background;
+  }
+};
+
+const getFontColor = () => {
+  if (localStorage.fontColor) {
+    for (let part of allText) {
+      part.style.color = localStorage.fontColor;
+    }
+  }
+};
+
+const getFontSize = () => {
+  if (localStorage.fontSize) {
+    for (let part of allParagraphs) {
+      part.style.fontSize = localStorage.fontSize;
+    }
+  }
+};
+
+const getLineHeigth = () => {
+  if (localStorage.lineHeight) {
+    for (let part of allParagraphs) {
+      part.style.lineHeight = localStorage.lineHeight;
+    }
+  }
+};
+
+const getFontFamily = () => {
+  if (localStorage.fontFamily) {
+    for (let part of allText) {
+      part.style.fontFamily = localStorage.fontFamily;
+    }
+  }
+};
+
 const start = () => {
+  getData();
   setBackgroundColorBtn();
   setFontColorBtn();
   setFontSizeBtn();
