@@ -45,8 +45,8 @@ engineering, agile methodologies and soft skills.
 - [x] 5-3: _JavaScript - Events_
 - [x] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[ Project - Meme Generator]()_
-- [ ] 5-6: _[ Project - Art with Pixels]()_
-- [ ] 5-7: _[ Project – Task List]()_
+- [x] 5-6: _[ Project - Art with Pixels](https://github.com/tryber/sd-010-b-project-pixels-art/pull/107)_
+- [x] 5-7: _[ Project – Task List](https://github.com/tryber/sd-010-b-project-todo-list/pull/22)_
 - [ ] 5-7: _[ Project – Guess the color]()_
 - [ ] 5-7: _[ Project – Mysterious Card]()_
 
