@@ -8,6 +8,79 @@
     <title>Forms</title>
   </head>
   <body>
+    <header><h1 class="title">My Form</h1></header>
+    <main>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Personal Data</legend>
+          <label for="name"
+            >Name:
+            <input name="name" minlength="1" maxlength="40" required id="name" type="text" />
+          </label>
+          <label for="email"
+            >Email:
+            <input name="email" maxlength="50" required id="email" type="email" />
+          </label>
+          <label for="cpf"
+            >CPF:
+            <input name="cpf" maxlength="11" required id="cpf" type="text" />
+          </label>
+          <label for="address"
+            >Address:
+            <input name="address" maxlength="200" required id="address" type="text" />
+          </label>
+          <label for="city"
+            >City:
+            <input name="city" max="28" required id="city" type="text" />
+          </label>
+          <label for="states"
+            >State:
+            <select name="state" id="states">
+              <option value="mg">Minas</option>
+            </select>
+          </label>
+          <div class="radio-container">
+            <p>Type:</p>
+            <label for="type1">
+              <input id="type1" name="type" checked value="house" type="radio" /> House
+            </label>
+            <label for="type2">
+              <input id="type2" name="type" value="apartment" type="radio" /> Apartment
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Experience</legend>
+          <label for="curriculum"
+            >Resume Summary:
+            <textarea
+              required
+              maxlength="1000"
+              name="curriculum"
+              id="curriculum"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+          <label for="job"
+            >Job:
+            <input maxlength="40" name="job" id="job" required type="text" />
+          </label>
+          <label for="job_description"
+            >Job Description:
+            <input max="500" required name="job_description" id="job_description" type="text" />
+          </label>
+          <label for="start_date"
+            >Start Date:
+            <input required name="start_date" id="start_date" type="text" />
+          </label>
+        </fieldset>
+        <div class="button_container">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </main>
     <script src="./script.js"></script>
   </body>
 </html>
