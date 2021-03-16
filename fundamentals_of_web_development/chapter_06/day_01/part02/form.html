@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <header><h1 class="title">My Form</h1></header>
+    <main>
+      <form id="myForm" action="" method="get">
+        <fieldset>
+          <legend>Personal Data</legend>
+          <label for="name"
+            >Name:
+            <input name="name" maxlength="40" required id="name" type="text" />
+          </label>
+          <label for="email"
+            >Email:
+            <input name="email" maxlength="50" required id="email" type="email" />
+          </label>
+          <label for="cpf"
+            >CPF:
+            <input name="cpf" maxlength="11" required id="cpf" type="text" />
+          </label>
+          <label for="address"
+            >Address:
+            <input name="address" maxlength="200" required id="address" type="text" />
+          </label>
+          <label for="city"
+            >City:
+            <input name="city" maxlength="28" required id="city" type="text" />
+          </label>
+          <label for="states"
+            >State:
+            <select name="state" id="states"></select>
+          </label>
+          <div class="radio-container">
+            <p>Type:</p>
+            <label for="type1">
+              <input id="type1" name="type" checked value="house" type="radio" /> House
+            </label>
+            <label for="type2">
+              <input id="type2" name="type" value="apartment" type="radio" /> Apartment
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Experience</legend>
+          <label for="curriculum"
+            >Resume Summary:
+            <textarea
+              required
+              maxlength="1000"
+              name="curriculum"
+              id="curriculum"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+          <label for="job"
+            >Job:
+            <input maxlength="40" name="job" id="job" required type="text" />
+          </label>
+          <label for="job_description"
+            >Job Description:
+            <input
+              maxlength="500"
+              required
+              name="job_description"
+              id="job_description"
+              type="text"
+            />
+          </label>
+          <label for="start_date"
+            >Start Date:
+            <input
+              placeholder="DD/MM/YYYY"
+              required
+              name="start_date"
+              id="start_date"
+              type="text"
+            />
+          </label>
+        </fieldset>
+        <div class="button_container">
+          <button id="submitBtn" type="submit">Send</button>
+          <button id="resetBtn" type="reset">Clear</button>
+        </div>
+      </form>
+      <p id="sentMessage"></p>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
