@@ -37,6 +37,13 @@ const sendBtn = document.querySelector("#submitBtn");
 const successMessage = document.querySelector("#sentMessage");
 // Functions
 
+const insertError = (text) => {
+  const errorP = document.createElement("p");
+  errorP.classList.add("error");
+  errorP.innerText = text;
+  return errorP;
+};
+
 const loadStates = () => {
   for (let state of stateArray) {
     const selectElement = document.createElement("option");
@@ -46,12 +53,41 @@ const loadStates = () => {
   }
 };
 
+const checkEmptyInputs = () => {
+  const allInputs = document.querySelectorAll("input");
+  let hasError = false;
+  allInputs.forEach((input) => {
+    if (input.value === "" && input.type != "radio") {
+      const error = `${input.parentNode.innerText.match(/[^:]+/)} must be filled out`;
+      hasError = true;
+      input.parentNode.parentNode.insertBefore(insertError(error), input.parentNode);
+    }
+  });
+  return hasError;
+};
+
+const checkMaxLength = () => {
+  let hasError = false;
+  document.querySelectorAll("input").forEach((input) => {
+    if (input.value > input.maxLength && input.maxLength != -1) {
+      const error = `${input.parentNode.innerText.match(/[^:]+/)} has more than ${
+        input.maxLength
+      } characters`;
+      hasError = true;
+      input.parentNode.parentNode.insertBefore(insertError(error), input.parentNode);
+    }
+  });
+  return hasError;
+};
+
 //             Listeners
 
 const setSendBtn = () => {
-  myForm.addEventListener("submit", (e) => {
+  sendBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    if (myForm.checkValidity()) successMessage.innerText = "Dados Enviados com Sucesso!";
+    checkMaxLength();
+    checkEmptyInputs();
+    successMessage.innerText = "Sendind Data";
   });
 };
 
