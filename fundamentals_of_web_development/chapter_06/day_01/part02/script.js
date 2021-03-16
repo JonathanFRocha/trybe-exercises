@@ -35,6 +35,8 @@ const selectState = document.querySelector("#states");
 const dateInput = document.querySelector("#start_date");
 const sendBtn = document.querySelector("#submitBtn");
 const successMessage = document.querySelector("#sentMessage");
+const allInputs = Array.from(document.querySelectorAll("input"));
+allInputs.push(document.querySelector("textarea"));
 // Functions
 
 const insertError = (text) => {
@@ -66,6 +68,12 @@ const validateDate = (date) => {
   }
 };
 
+const removeElements = (elements) => {
+  elements.forEach((element) => {
+    element.parentNode.removeChild(element);
+  });
+};
+
 //  Checks
 
 const checkDate = () => {
@@ -92,12 +100,11 @@ const checkEmail = () => {
     const errorMessage = "Invalid Email";
     email.parentNode.parentNode.insertBefore(insertError(errorMessage), email.parentNode);
   } else {
-    console.log(true);
+    return true;
   }
 };
 
 const checkEmptyInputs = () => {
-  const allInputs = document.querySelectorAll("input");
   let hasError = false;
   allInputs.forEach((input) => {
     if (input.value === "" && input.type != "radio") {
@@ -111,7 +118,7 @@ const checkEmptyInputs = () => {
 
 const checkMaxLength = () => {
   let hasError = false;
-  document.querySelectorAll("input").forEach((input) => {
+  allInputs.forEach((input) => {
     if (input.value > input.maxLength && input.maxLength != -1) {
       const error = `${input.parentNode.innerText.match(/[^:]+/)} has more than ${
         input.maxLength
@@ -128,11 +135,19 @@ const checkMaxLength = () => {
 const setSendBtn = () => {
   sendBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    checkMaxLength();
-    checkEmptyInputs();
-    checkEmail();
-    checkDate();
-    successMessage.innerText = "Sendind Data";
+    const elementErrors = document.querySelectorAll(".error");
+    if (elementErrors) {
+      removeElements(elementErrors);
+    }
+    const invalidLength = checkMaxLength();
+    const hasEmptyInputs = checkEmptyInputs();
+    const invalidEmail = checkEmail();
+    const invalidDate = checkDate();
+    if (invalidLength || invalidEmail || invalidDate || hasEmptyInputs) {
+      successMessage.innerText = "Something went Wrong, check the form";
+    } else {
+      successMessage.innerText = "Sendind Data";
+    }
   });
 };
 
