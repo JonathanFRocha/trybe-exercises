@@ -1,4 +1,4 @@
-// Brazilian State Array
+// Brazilian States Array
 const stateArray = [
   { label: "Acre", value: "AC" },
   { label: "Alagoas", value: "AL" },
@@ -53,6 +53,49 @@ const loadStates = () => {
   }
 };
 
+const validateDate = (date) => {
+  if (date.indexOf("/") === 2 || date.indexOf("/") === 5) {
+    const splitDate = date.split("/");
+    const day = splitDate[0];
+    const month = splitDate[1];
+    const year = splitDate[2];
+    if (day > 0 && day <= 31 && month > 0 && month <= 12 && year > 0 && year.length === 4) {
+      return true;
+    }
+    return false;
+  }
+};
+
+//  Checks
+
+const checkDate = () => {
+  const inputDate = document.querySelector("#start_date");
+  const date = inputDate.value;
+  if (!date) return;
+  let hasError = false;
+  const validDate = validateDate(date);
+  if (!validDate) {
+    const errorMessage = "Invalid Format Date";
+    inputDate.parentNode.parentNode.insertBefore(insertError(errorMessage), inputDate.parentNode);
+    hasError = true;
+  }
+  return hasError;
+};
+
+const checkEmail = () => {
+  const email = document.querySelector("#email");
+  if (!email.value) {
+    return;
+  }
+  const re = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+$/;
+  if (!re.test(email.value) && email.value) {
+    const errorMessage = "Invalid Email";
+    email.parentNode.parentNode.insertBefore(insertError(errorMessage), email.parentNode);
+  } else {
+    console.log(true);
+  }
+};
+
 const checkEmptyInputs = () => {
   const allInputs = document.querySelectorAll("input");
   let hasError = false;
@@ -87,6 +130,8 @@ const setSendBtn = () => {
     e.preventDefault();
     checkMaxLength();
     checkEmptyInputs();
+    checkEmail();
+    checkDate();
     successMessage.innerText = "Sendind Data";
   });
 };
