@@ -54,8 +54,8 @@ engineering, agile methodologies and soft skills.
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _JavaScript Libs and CSS Frameworks_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
+- [x] 6-3: _CSS Flexbox - Part 1_
+- [x] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsive - Mobile First_
 - [ ] 6-6: _[Project – Facebook Home Page]()_
 
