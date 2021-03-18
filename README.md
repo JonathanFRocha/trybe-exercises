@@ -56,7 +56,7 @@ engineering, agile methodologies and soft skills.
 - [x] 6-2: _JavaScript Libs and CSS Frameworks_
 - [x] 6-3: _CSS Flexbox - Part 1_
 - [x] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsive - Mobile First_
+- [x] 6-5: _CSS Responsive - Mobile First_
 - [ ] 6-6: _[Project – Facebook Home Page]()_
 
 ##### Chapter 7: JavaScript ES6 & Unit Testing
