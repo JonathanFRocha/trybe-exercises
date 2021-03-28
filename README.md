@@ -64,13 +64,13 @@ engineering, agile methodologies and soft skills.
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _JavaScript Unit Testing_
-- [ ] 7-4: _[Project - JavaScript Unit Testing]()_
+- [x] 7-4: _[Project - JavaScript Unit Testing](https://github.com/tryber/sd-010-b-project-js-unit-tests/pull/111)_
 
 ##### Chapter 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
 - [ ] 8-5: _[Project - Zoo functions]()_
 
