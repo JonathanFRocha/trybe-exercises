@@ -63,14 +63,17 @@ const books = [
   },
 ];
 
-function smallerName() {
-  let nameBook = books[0].name;
-  books.forEach(({ name }) => {
-    if (nameBook.length > name.length) {
-      nameBook = name;
-    }
-  });
-  return nameBook;
+const expectedResult = false;
+
+function authorUnique() {
+  return books.every(
+    (book) =>
+      !books.some(
+        (bookSome) =>
+          bookSome.author.birthYear === book.author.birthYear &&
+          bookSome.author.name !== book.author.name
+      )
+  );
 }
 
-assert.strictEqual(smallerName(), "Duna");
+assert.strictEqual(authorUnique(), expectedResult);
