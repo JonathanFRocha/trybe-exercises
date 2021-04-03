@@ -71,13 +71,13 @@ engineering, agile methodologies and soft skills.
 - [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
 - [ ] 8-5: _[Project - Zoo functions]()_
 
 ##### Chapter 9: Asynchronicity & Callbacks
 
-- [ ] 9-1: _JavaScript Asynchronous e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
+- [x] 9-1: _JavaScript Asynchronous e Callbacks_
+- [x] 9-2: _JavaScript Promises_
 - [ ] 9-3: _[Project – Shopping Cart]()_
 
 ##### Chapter 10: Jest
