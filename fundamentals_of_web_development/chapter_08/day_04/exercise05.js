@@ -13,7 +13,15 @@ const names = [
 ];
 
 function containsA() {
-  // escreva seu código aqui
+  return names.reduce((acc, aNames) => {
+    let current = 0;
+    aNames.split("").forEach((letter) => {
+      if (letter.toLowerCase() == "a") {
+        current += 1;
+      }
+    });
+    return acc + current;
+  }, 0);
 }
 
 assert.deepStrictEqual(containsA(), 20);
