@@ -72,7 +72,7 @@ engineering, agile methodologies and soft skills.
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
-- [ ] 8-5: _[Project - Zoo functions]()_
+- [x] 8-5: _[Project - Zoo functions](https://github.com/tryber/sd-010-b-project-zoo-functions/pull/98)_
 
 ##### Chapter 9: Asynchronicity & Callbacks
 
