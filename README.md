@@ -78,11 +78,11 @@ engineering, agile methodologies and soft skills.
 
 - [x] 9-1: _JavaScript Asynchronous e Callbacks_
 - [x] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Project – Shopping Cart]()_
+- [x] 9-3: _[Project – Shopping Cart](https://github.com/tryber/sd-010-b-project-shopping-cart/pull/79)_
 
 ##### Chapter 10: Jest
 
-- [ ] 10-1: _First steps with Jest_
+- [x] 10-1: _First steps with Jest_
 - [ ] 10-2: _Jest – Async Tests_
 - [ ] 10-3: _Jest - Simulating Behaviours_
 - [ ] 10-4: _[Project - Jest Async e Mocking]()_
