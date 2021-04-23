@@ -84,7 +84,7 @@ engineering, agile methodologies and soft skills.
 
 - [x] 10-1: _First steps with Jest_
 - [x] 10-2: _Jest – Async Tests_
-- [ ] 10-3: _Jest - Simulating Behaviours_
+- [x] 10-3: _Jest - Simulating Behaviours_
 - [ ] 10-4: _[Project - Jest Async e Mocking]()_
 
 ## 2nd Subject: Front-end Development :hourglass_flowing_sand:
