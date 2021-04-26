@@ -85,13 +85,13 @@ engineering, agile methodologies and soft skills.
 - [x] 10-1: _First steps with Jest_
 - [x] 10-2: _Jest – Async Tests_
 - [x] 10-3: _Jest - Simulating Behaviours_
-- [ ] 10-4: _[Project - Jest Async e Mocking]()_
+- [x] 10-4: _[Project - Jest Async e Mocking](https://github.com/tryber/sd-010-b-project-jest/pull/91)_
 
 ## 2nd Subject: Front-end Development :hourglass_flowing_sand:
 
 ##### Chapter 11: Introduction - React
 
-- [ ] 11-1: _'Hello, world!' no React!_
+- [x] 11-1: _'Hello, world!' no React!_
 - [ ] 11-2: _React Components_
 - [ ] 11-3: _[Project - Movie Cards Library]()_
 
