@@ -92,7 +92,7 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 11: Introduction - React
 
 - [x] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _React Components_
+- [x] 11-2: _React Components_
 - [ ] 11-3: _[Project - Movie Cards Library]()_
 
 ##### Chapter 12: React
