@@ -93,11 +93,11 @@ engineering, agile methodologies and soft skills.
 
 - [x] 11-1: _'Hello, world!' no React!_
 - [x] 11-2: _React Components_
-- [ ] 11-3: _[Project - Movie Cards Library]()_
+- [x] 11-3: _[Project - Movie Cards Library](https://github.com/tryber/sd-010-b-project-movie-cards-library/pull/107)_
 
 ##### Chapter 12: React
 
-- [ ] 12-1: _State of Components_
+- [x] 12-1: _State of Components_
 - [ ] 12-2: _Events and Forms with React_
 - [ ] 12-3: _[Project - Movie Cards Library Stateful]()_
 
