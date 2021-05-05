@@ -99,14 +99,13 @@ engineering, agile methodologies and soft skills.
 
 - [x] 12-1: _State of Components_
 - [x] 12-2: _Events and Forms with React_
-- [ ] 12-3: _[Project - Movie Cards Library Stateful]()_
+- [x] 12-3: _[Project - Movie Cards Library Stateful](https://github.com/tryber/sd-010-b-project-movie-cards-library-stateful/pull/83)_
 
 ##### Chapter 13: React
 
-- [ ] 13-1: _improving components reusability: props.children e PropTypes_
-- [ ] 13-2: _Componentes Life Cycle - React_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _[Project - Movie Cards Library CRUD]()_
+- [x] 13-1: _Componentes Life Cycle - React_
+- [ ] 13-2: _React Router_
+- [ ] 13-3: _[Project - Movie Cards Library CRUD]()_
 
 ##### Chapter 14: Agile methodologies
 
