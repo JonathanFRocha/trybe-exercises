@@ -98,7 +98,7 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 12: React
 
 - [x] 12-1: _State of Components_
-- [ ] 12-2: _Events and Forms with React_
+- [x] 12-2: _Events and Forms with React_
 - [ ] 12-3: _[Project - Movie Cards Library Stateful]()_
 
 ##### Chapter 13: React
