@@ -104,17 +104,17 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 13: React
 
 - [x] 13-1: _Componentes Life Cycle - React_
-- [ ] 13-2: _React Router_
-- [ ] 13-3: _[Project - Movie Cards Library CRUD]()_
+- [x] 13-2: _React Router_
+- [x] 13-3: _[Project - Movie Cards Library CRUD](https://github.com/tryber/sd-010-b-project-movie-card-library-crud/pull/77)_
 
 ##### Chapter 14: Agile methodologies
 
-- [ ] 14-1: _Agile Methodologies_
-- [ ] 14-2: _[Project - Front-end Online Store]()_
+- [x] 14-1: _Agile Methodologies_
+- [x] 14-2: _[Project - Front-end Online Store](https://github.com/tryber/sd-010-b-project-frontend-online-store/pull/177)_
 
 ##### Chapter 15: React Tests
 
-- [ ] 15-1: _Testing React with React Testing Library_
+- [x] 15-1: _Testing React with React Testing Library_
 - [ ] 15-2: _Testing React with React Testing Library - Part 2_
 - [ ] 15-3: _[Project - Testes em React]()_
 
