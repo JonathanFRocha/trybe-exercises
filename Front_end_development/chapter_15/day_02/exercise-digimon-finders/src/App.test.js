@@ -24,4 +24,11 @@ describe("Test all", () => {
     fireEvent.change(input, { target: { value: "Agumon" } });
     expect(input).toHaveValue("Agumon");
   });
+
+  test("verify if app start with any digimon rendered", () => {
+    const { queryByTestId } = render(<App />);
+    const digimon = queryByTestId("digimonName");
+
+    expect(digimon).toBe(null);
+  });
 });
