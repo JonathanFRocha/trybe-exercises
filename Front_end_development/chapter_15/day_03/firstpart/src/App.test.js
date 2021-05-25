@@ -1,6 +1,6 @@
 import React from "react";
 import renderWithRouter from "./renderWithRouter";
-import App from "./App";
+import App, { About } from "./App";
 import { fireEvent } from "@testing-library/react";
 describe("teste da aplicação toda", () => {
   test("deve renderizar o componente App", () => {
@@ -16,5 +16,18 @@ describe("teste da aplicação toda", () => {
     expect(pathname).toBe("/about");
     const aboutAll = getByText(/Você está na página Sobre/);
     expect(aboutAll).toBeInTheDocument();
+  });
+
+  test("deve testar um caminho não existente e a renderização do Not Found", () => {
+    const { getByText, history } = renderWithRouter(<App />);
+    history.push("/pagina/que-nao-existe/");
+    const noMatch = getByText(/Página não encontrada/i);
+    expect(noMatch).toBeInTheDocument();
+  });
+
+  test("deve renderizar o componente About (apenas componente)", () => {
+    const { getByText } = renderWithRouter(<About />);
+    const aboutOnly = getByText(/Você está na página Sobre/i);
+    expect(aboutOnly).toBeInTheDocument();
   });
 });
