@@ -115,7 +115,7 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 15: React Tests
 
 - [x] 15-1: _Testing React with React Testing Library_
-- [ ] 15-2: _Testing React with React Testing Library - Part 2_
+- [x] 15-2: _React Testing Library - Mocks And Inputs_
 - [ ] 15-3: _[Project - Testes em React]()_
 
 ##### Chapter 16: Redux Introduction
