@@ -65,4 +65,30 @@ describe("Test all", () => {
     expect(globalFetch).toBeCalledTimes(1);
     expect(globalFetch).toBeCalledWith("https://digimon-api.vercel.app/api/digimon/name/Patamon");
   });
+
+  test("Test if api has a response for no digimon found response", async () => {
+    const notFoundMsg = { ErrorMsg: "Pikachu is not a Digimon in our database." };
+
+    jest.spyOn(global, "fetch");
+    const globalFetch = global.fetch.mockResolvedValue({
+      json: jest.fn().mockResolvedValue(notFoundMsg),
+    });
+
+    const { findByText, getByTestId } = render(<App />);
+
+    const input = getByTestId("input");
+    expect(input).toHaveValue("");
+
+    fireEvent.change(input, { target: { value: "Pikachu" } });
+    expect(input).toHaveValue("Pikachu");
+
+    const button = getByTestId("buttonSearch");
+    expect(button).toBeInTheDocument();
+    fireEvent.click(button);
+
+    await findByText("Pikachu is not a Digimon in our database.");
+
+    expect(globalFetch).toBeCalledTimes(1);
+    expect(globalFetch).toBeCalledWith("https://digimon-api.vercel.app/api/digimon/name/Pikachu");
+  });
 });
