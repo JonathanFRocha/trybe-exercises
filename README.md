@@ -117,12 +117,12 @@ engineering, agile methodologies and soft skills.
 - [x] 15-1: _Testing React with React Testing Library_
 - [x] 15-2: _React Testing Library - Mocks And Inputs_
 - [x] 15-3: _React Testing Library - Test With React Router_
-- [ ] 15-4: _[Project - Testes em React]()_
+- [x] 15-4: _[Project - Testes em React](https://github.com/tryber/sd-010-b-project-react-testing-library/pull/84)_
 
 ##### Chapter 16: Redux Introduction
 
-- [ ] 16-1: _Introduction to Redux_
-- [ ] 16-2: _React - Redux - Part 1_
+- [x] 16-1: _Introduction to Redux_
+- [ ] 16-2: _React - Redux - Using Redux with React_
 - [ ] 16-3: _React - Redux - Practice_
 - [ ] 16-4: _React - Redux - Part 2_
 - [ ] 16-5: _Sync Tests with React-Redux_
