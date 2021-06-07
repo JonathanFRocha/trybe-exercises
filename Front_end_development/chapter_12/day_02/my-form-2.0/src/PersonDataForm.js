@@ -1,4 +1,6 @@
 import React from "react";
+import { connect } from "react-redux";
+import handlePersonData from "./actions/personDataAction";
 const brState = [
   "AC",
   "AL",
@@ -30,19 +32,22 @@ const brState = [
 ];
 class PersonDataForm extends React.Component {
   renderStates(statesArr) {
-    const {
-      values: { state },
-    } = this.props;
-    return statesArr.map((estado) => {
-      return <option value={estado}>{estado}</option>;
+    // const {
+    //   values: { state },
+    // } = this.props;
+    return statesArr.map((estado, index) => {
+      return (
+        <option key={index} value={estado}>
+          {estado}
+        </option>
+      );
     });
   }
+
   render() {
     const renderedOptions = this.renderStates(brState);
-    const {
-      values: { name, email, cpf, address, city, state },
-      handleChanges,
-    } = this.props;
+    const { name, email, cpf, address, city, state, handleChanges } = this.props;
+
     return (
       <fieldset>
         <div>
@@ -53,7 +58,7 @@ class PersonDataForm extends React.Component {
             type="text"
             name="name"
             value={name}
-            onChange={handleChanges}
+            onChange={(e) => handleChanges(e.target.name, e.target.value)}
           />
         </div>
         <div>
@@ -64,7 +69,7 @@ class PersonDataForm extends React.Component {
             type="text"
             name="email"
             value={email}
-            onChange={handleChanges}
+            onChange={(e) => handleChanges(e.target.name, e.target.value)}
           />
         </div>
         <div>
@@ -75,7 +80,7 @@ class PersonDataForm extends React.Component {
             type="text"
             name="cpf"
             value={cpf}
-            onChange={handleChanges}
+            onChange={(e) => handleChanges(e.target.name, e.target.value)}
           />
         </div>
         <div>
@@ -86,7 +91,7 @@ class PersonDataForm extends React.Component {
             type="text"
             name="address"
             value={address}
-            onChange={handleChanges}
+            onChange={(e) => handleChanges(e.target.name, e.target.value)}
           />
         </div>
         <div>
@@ -97,21 +102,35 @@ class PersonDataForm extends React.Component {
             type="text"
             name="city"
             value={city}
-            onChange={handleChanges}
+            onChange={(e) => handleChanges(e.target.name, e.target.value)}
           />
         </div>
         <div>
           <label>Select a country state:</label>
-          <select value={state} onChange={handleChanges} name="state">
+          <select
+            value={state}
+            onChange={(e) => handleChanges(e.target.name, e.target.value)}
+            name="state"
+          >
             {renderedOptions}
           </select>
         </div>
         <div>
           <h4>Select a country state:</h4>
           <div>
-            <input type="radio" name="addressType" value="Apartamento" onChange={handleChanges} />
+            <input
+              type="radio"
+              name="addressType"
+              value="Apartamento"
+              onChange={(e) => handleChanges(e.target.name, e.target.value)}
+            />
             <label>Apartamento</label>
-            <input type="radio" name="addressType" value="Casa" onChange={handleChanges} />
+            <input
+              type="radio"
+              name="addressType"
+              value="Casa"
+              onChange={(e) => handleChanges(e.target.name, e.target.value)}
+            />
             <label>Casa</label>
           </div>
         </div>
@@ -120,4 +139,17 @@ class PersonDataForm extends React.Component {
   }
 }
 
-export default PersonDataForm;
+const mapStateToProps = (state) => ({
+  name: state.personDataReducer.name,
+  email: state.personDataReducer.email,
+  cpf: state.personDataReducer.cpf,
+  address: state.personDataReducer.address,
+  city: state.personDataReducer.city,
+  state: state.personDataReducer.state,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+  handleChanges: (inputName, value) => dispatch(handlePersonData(inputName, value)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(PersonDataForm);

@@ -7,7 +7,7 @@ class Form extends React.Component {
     const { values, handleChanges } = this.props;
     return (
       <form>
-        <PersonDataForm values={values} handleChanges={handleChanges} />
+        <PersonDataForm />
         <JobDataForm values={values} handleChanges={handleChanges} />
       </form>
     );

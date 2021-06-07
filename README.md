@@ -123,8 +123,8 @@ engineering, agile methodologies and soft skills.
 
 - [x] 16-1: _Introduction to Redux_
 - [x] 16-2: _React - Redux - Using Redux with React_
-- [ ] 16-3: _React - Redux - Practice_
-- [ ] 16-4: _React - Redux - Part 2_
+- [x] 16-3: _React - Redux - Practice_
+- [x] 16-4: _React - Redux - Part 2_
 - [ ] 16-5: _Sync Tests with React-Redux_
 - [ ] 16-6: _[Project - Table with data filters]()_
 
