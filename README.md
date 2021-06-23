@@ -126,15 +126,15 @@ engineering, agile methodologies and soft skills.
 - [x] 16-3: _React - Redux - Practice_
 - [x] 16-4: _React - Redux - Part 2_
 - [x] 16-5: _Sync Tests with React-Redux_
-- [ ] 16-6: _[Project - Table with data filters]()_
+- [x] 16-6: _[Project - Trybe waller](https://github.com/tryber/sd-010-b-project-trybewallet/pull/79)_
 
 ##### Chapter 17: React Project
 
-- [ ] 17-1: _[Project – Trivia Game]()_
+- [x] 17-1: _[Project – Trivia Game](https://github.com/tryber/sd-010-b-project-trivia-react-redux/pull/85)_
 
 ##### Chapter 18: React & Context API
 
-- [ ] 18-1: _React - Context API_
+- [x] 18-1: _React - Context API_
 - [ ] 18-2: _React Hooks - useState and useContext_
 - [ ] 18-3: _React Hooks - useEffect and Custom Hooks_
 - [ ] 18-4: _[Project – Star Wars Datatable with Context API and Hooks]()_
