@@ -136,7 +136,7 @@ engineering, agile methodologies and soft skills.
 
 - [x] 18-1: _React - Context API_
 - [x] 18-2: _React Hooks - useState and useContext_
-- [ ] 18-3: _React Hooks - useEffect and Custom Hooks_
+- [x] 18-3: _React Hooks - useEffect and Custom Hooks_
 - [ ] 18-4: _[Project – Star Wars Datatable with Context API and Hooks]()_
 
 ##### Chapter 19: Front-End Final Project
