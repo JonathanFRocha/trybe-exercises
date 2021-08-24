@@ -137,61 +137,63 @@ engineering, agile methodologies and soft skills.
 - [x] 18-1: _React - Context API_
 - [x] 18-2: _React Hooks - useState and useContext_
 - [x] 18-3: _React Hooks - useEffect and Custom Hooks_
-- [ ] 18-4: _[Project – Star Wars Datatable with Context API and Hooks]()_
+- [x] 18-4: _[Project – Star Wars Datatable with Context API and Hooks]()_
 
 ##### Chapter 19: Front-End Final Project
 
-- [ ] 19-1: _[Project – Recipe App]()_
+- [x] 19-1: _[Project – Recipe App](https://github.com/tryber/sd-010-b-project-recipes-app/tree/main-group-18)_
 
 ## 3rd Subject: Development Back-end :hourglass_flowing_sand:
 
 ##### Chapter 20: Introduction – Relational Database
 
-- [ ] 20-1: _SQL Database_
-- [ ] 20-2: _Finding data in a database_
-- [ ] 20-3: _Filtering specific data in a database_
-- [ ] 20-4: _Table manipulation_
-- [ ] 20-5: _[Project - All For One]()_
+- [x] 20-1: _SQL Database_
+- [x] 20-2: _Finding data in a database_
+- [x] 20-3: _Filtering specific data in a database_
+- [x] 20-4: _Table manipulation_
+- [x] 20-5: _[Project - All For One](https://github.com/tryber/sd-010-b-mysql-one-for-all/pull/78)_
 
 ##### Chapter 21: Relational Databases
 
-- [ ] 21-1: _Most used functions in SQL_
-- [ ] 21-2: _Understanding JOINs and UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Project - Vocabulary Booster]()_
+- [x] 21-1: _Most used functions in SQL_
+- [x] 21-2: _Understanding JOINs and UNIONs_
+- [x] 21-3: _Stored Routines & Subqueries_
+- [x] 21-4: _[Project - Vocabulary Booster](https://github.com/tryber/sd-010-b-mysql-vocabulary-booster/pull/94)_
 
 ##### Chapter 22: Relational Databases
 
-- [ ] 22-1: _Transforming ideas into a database model_
-- [ ] 22-2: _Normalization, Normal Forms and Dumps_
-- [ ] 22-2: _Transforming ideas into a database model - Part 2_
-- [ ] 22-3: _[Project - One For All]()_
+- [x] 22-1: _Transforming ideas into a database model_
+- [x] 22-2: _Normalization, Normal Forms and Dumps_
+- [x] 22-2: _Transforming ideas into a database model - Part 2_
+- [x] 22-3: _[Project - One For All](https://github.com/tryber/sd-010-b-mysql-one-for-all/pull/78)_
 
 ##### Chapter 23: Introduction - NoSQL
 
-- [ ] 23-1: _MongoDB - Introduction_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Project - Data Flights]()_
+- [x] 23-1: _MongoDB - Introduction_
+- [x] 23-2: _Filter Operators_
+- [x] 23-3: _[Project - Data Flights](https://github.com/tryber/sd-010-b-mongodb-dataflights/pull/91)_
 
 ##### Chapter 24: Updates
 
-- [ ] 24-1: _Simple Updates Simple_
-- [ ] 24-2: _Complex Updates - Arrays - Part 1_
-- [ ] 24-3: _Complex Updates - Arrays - Part 2_
-- [ ] 24-4: _[Project - Commerce]()_
+- [x] 24-1: _Simple Updates Simple_
+- [x] 24-2: _Complex Updates - Arrays - Part 1_
+- [x] 24-3: _Complex Updates - Arrays - Part 2_
+- [x] 24-4: _[Project - Commerce](https://github.com/tryber/sd-010-b-mongodb-commerce/pull/9)_
 
 ##### Chapter 25: Aggregation Framework
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Project - Aggregations]()_
+- [x] 25-1: _Aggregation Framework - Part 1_
+- [x] 25-2: _Aggregation Framework - Part 2_
+- [x] 25-3: _[Project - Aggregations](https://github.com/tryber/sd-010-b-mongodb-aggregations/pull/83)_
 
 ##### Chapter 26: Intro - NodeJS
 
-- [ ] 26-1: _NodeJS - Introduction_
+- [x] 26-1: _NodeJS - Introduction_
 - [ ] 26-2: _NodeJS - Asynchronous Flux_
-- [ ] 26-3: _NodeJS - Architecture_
-- [ ] 26-4: _[Project - A CLI of Ice and Fire]()_
+- [ ] 26-3: _NodeJS - NodeJS Tests_
+- [ ] 26-4: _NodeJS - HTTP using NodeJS_
+- [ ] 26-5: _NodeJS - Using Express_
+- [ ] 26-6: _[Project - Talker Manager]()_
 
 ##### Chapter 27: NodeJS
 
