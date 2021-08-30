@@ -191,8 +191,8 @@ engineering, agile methodologies and soft skills.
 - [x] 26-1: _NodeJS - Introduction_
 - [x] 26-2: _NodeJS - Asynchronous Flux_
 - [x] 26-3: _NodeJS - NodeJS Tests_
-- [ ] 26-4: _NodeJS - HTTP using NodeJS_
-- [ ] 26-5: _NodeJS - Using Express_
+- [x] 26-4: _NodeJS - HTTP using NodeJS_
+- [ ] 26-5: _NodeJS - MiddleWares_
 - [ ] 26-6: _[Project - Talker Manager]()_
 
 ##### Chapter 27: NodeJS
