@@ -189,7 +189,7 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 26: Intro - NodeJS
 
 - [x] 26-1: _NodeJS - Introduction_
-- [ ] 26-2: _NodeJS - Asynchronous Flux_
+- [x] 26-2: _NodeJS - Asynchronous Flux_
 - [ ] 26-3: _NodeJS - NodeJS Tests_
 - [ ] 26-4: _NodeJS - HTTP using NodeJS_
 - [ ] 26-5: _NodeJS - Using Express_
