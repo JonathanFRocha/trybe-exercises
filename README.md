@@ -193,13 +193,15 @@ engineering, agile methodologies and soft skills.
 - [x] 26-3: _NodeJS - NodeJS Tests_
 - [x] 26-4: _NodeJS - HTTP using NodeJS_
 - [x] 26-5: _NodeJS - MiddleWares_
-- [ ] 26-6: _[Project - Talker Manager]()_
+- [x] 26-6: _[Project - Talker Manager](https://github.com/tryber/sd-010-b-project-talker-manager/pull/90)_
 
 ##### Chapter 27: NodeJS
 
-- [ ] 27-1: _Express: HTTP with Node.js_
-- [ ] 27-2: _Software Architecture – Introduction to MVC_
-- [ ] 27-3: _[Project - Cookmaster]()_
+- [x] 27-1: _Software Architecture - Model Layer_
+- [ ] 27-2: _Software Architecture - Controller, Service Layer_
+- [ ] 27-3: _Web Architecture - Rest - Restful_
+- [ ] 27-4: _Software Architecture - Testing Layers_
+- [ ] 27-5: _[Project - Store Manager]()_
 
 ##### Chapter 28: NodeJS
 
