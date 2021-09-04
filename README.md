@@ -198,7 +198,7 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 27: NodeJS
 
 - [x] 27-1: _Software Architecture - Model Layer_
-- [ ] 27-2: _Software Architecture - Controller, Service Layer_
+- [x] 27-2: _Software Architecture - Controller, Service Layer_
 - [ ] 27-3: _Web Architecture - Rest - Restful_
 - [ ] 27-4: _Software Architecture - Testing Layers_
 - [ ] 27-5: _[Project - Store Manager]()_
