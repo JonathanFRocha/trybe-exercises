@@ -1,4 +1,4 @@
-const {validateCep, validateCepPost} = require("../schema/cepValidations");
+const { validateCep, validateCepPost } = require("../schema/cepValidations");
 
 const checkCep = (req, _res, next) => {
   const { cep } = req.params;
@@ -8,10 +8,10 @@ const checkCep = (req, _res, next) => {
 };
 
 const validateBodyCep = (req, _res, next) => {
-  const body = req.body
-  const result = validateCepPost(body)
-  if(result.error) return next(result)
-  next()
-}
+  const body = req.body;
+  const result = validateCepPost(body);
+  if (result.error) return next(result);
+  next();
+};
 
-module.exports = { checkCep };
+module.exports = { checkCep, validateBodyCep };

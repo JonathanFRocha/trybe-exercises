@@ -1,4 +1,4 @@
-const { checkCep } = require("../middlewares/cepMiddleware");
+const { checkCep, validateBodyCep } = require("../middlewares/cepMiddleware");
 const Cep = require("../services/cep");
 
 checkCep;
@@ -11,11 +11,11 @@ const cep = (app) => {
     res.status(code).json(msg);
   });
 
-  app.post("/cep", async (req, res) => {
+  app.post("/cep", validateBodyCep, async (req, res) => {
     const body = req.body;
     const cepS = new Cep();
-    const { msg, code } = await cepS.insertOne(body);
-    res.status(200).send("ok");
+    const { msg, code } = await cepS.InsertOne(body);
+    res.status(code).send(msg);
   });
 };
 
