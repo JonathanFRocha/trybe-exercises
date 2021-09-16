@@ -201,7 +201,7 @@ engineering, agile methodologies and soft skills.
 - [x] 27-2: _Software Architecture - Controller, Service Layer_
 - [x] 27-3: _Web Architecture - Rest - Restful_
 - [x] 27-4: _Software Architecture - Testing Layers_
-- [ ] 27-5: _[Project - Store Manager]()_
+- [x] 27-5: _[Project - Store Manager](https://github.com/tryber/sd-010-b-store-manager/pull/86)_
 
 ##### Chapter 28: NodeJS
 
