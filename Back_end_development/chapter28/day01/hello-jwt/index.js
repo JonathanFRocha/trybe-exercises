@@ -23,6 +23,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/ping", controllers.ping);
 app.use("/login", controllers.login);
 app.use("/user", controllers.user);
+app.use("/top-secret", controllers.secretRoute);
 
 app.use(middlewares.error);
 
