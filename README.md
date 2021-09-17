@@ -203,45 +203,36 @@ engineering, agile methodologies and soft skills.
 - [x] 27-4: _Software Architecture - Testing Layers_
 - [x] 27-5: _[Project - Store Manager](https://github.com/tryber/sd-010-b-store-manager/pull/86)_
 
-##### Chapter 28: NodeJS
+##### Chapter 28: Auth and Uploads
 
-- [ ] 28-1: _Software Architecture – Service Layer_
-- [ ] 28-2: _Web Architecture - Rest e Restful_
-- [ ] 28-3: _[Project - Store Manager]()_
+- [x] 28-1: _NodeJS – JWT - (JSON Web Token)_
+- [ ] 28-2: _Files upload using Multer_
+- [ ] 28-3: _Testing APIs using Integration Tests_
+- [ ] 28-4: _[Project - Cookmaster]()_
 
-##### Chapter 29: NodeJS
+##### Chapter 29: - Deployment
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS – Files Upload with Multer_
-- [ ] 29-3: _[Project - Cookmaster V2]()_
+- [ ] 29-1: _Infrastructure - Deploy with Heroku_
+- [ ] 29-2: _Deploy – Process Managers_
+- [ ] 29-3: _[Project - Stranger Things]()_
 
-##### Chapter 30: Introduction - Deploy
+##### Chapter 30: Software Architecture
 
-- [ ] 30-1: _Infrastructure - Deploy with Heroku_
-- [ ] 30-2: _Deploy – Process Managers_
-- [ ] 30-3: _[Project - Stranger Things]()_
+- [ ] 30-1: _Architecture – SOLID Principles_
+- [ ] 30-2: _ORM – App interface with database_
+- [ ] 30-3: _Software Architecture - DDD_
+- [ ] 30-4: _Tests Best Practices_
+- [ ] 30-3: _[Project – Blog API]()_
 
-##### Chapter 31: Project
+##### Chapter 31: Sockets
 
-- [ ] 31-1: _[Project - Trybeer]()_
-
-##### Chapter 32: Software Architecture
-
-- [ ] 32-1: _Architecture – SOLID Principles_
-- [ ] 32-2: _ORM – App interface with database_
-- [ ] 32-3: _Software Architecture - DDD_
-- [ ] 32-4: _Tests Best Practices_
-- [ ] 32-3: _[Project – Blog API]()_
-
-##### Chapter 33: Sockets
-
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Project - Webchat]()_
+- [ ] 31-1: _Sockets - TCP/UDP & NET_
+- [ ] 31-2: _Sockets - Socket.io_
+- [ ] 31-3: _[Project - Webchat]()_
 
 ##### Chapter 34: Project
 
-- [ ] 34-1: _[Project - Trybeer V2]()_
+- [ ] 32-1: _[Project - Trybeer V2]()_
 
 ## 4th Subject: Computer Science :hourglass_flowing_sand:
 
