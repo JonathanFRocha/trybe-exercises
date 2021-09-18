@@ -206,7 +206,7 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 28: Auth and Uploads
 
 - [x] 28-1: _NodeJS – JWT - (JSON Web Token)_
-- [ ] 28-2: _Files upload using Multer_
+- [x] 28-2: _Files upload using Multer_
 - [ ] 28-3: _Testing APIs using Integration Tests_
 - [ ] 28-4: _[Project - Cookmaster]()_
 
