@@ -207,14 +207,15 @@ engineering, agile methodologies and soft skills.
 
 - [x] 28-1: _NodeJS – JWT - (JSON Web Token)_
 - [x] 28-2: _Files upload using Multer_
-- [ ] 28-3: _Testing APIs using Integration Tests_
-- [ ] 28-4: _[Project - Cookmaster]()_
+- [x] 28-3: _Testing APIs using Integration Tests_
+- [x] 28-4: _[Project - Cookmaster](https://github.com/tryber/sd-010-b-store-manager/pull/86)_
 
 ##### Chapter 29: - Deployment
 
-- [ ] 29-1: _Infrastructure - Deploy with Heroku_
-- [ ] 29-2: _Deploy – Process Managers_
-- [ ] 29-3: _[Project - Stranger Things]()_
+- [x] 29-1: _Infrastructure - Deploy with Heroku_
+- [x] 29-2: _Deploy – Process Managers_
+- [x] 29-3: _[Project - Stranger Things Frontend](https://github.com/tryber/sd-010-b-stranger-things-frontend/pull/44)_
+- [x] 29-3: _[Project - Stranger Things Backend](https://github.com/tryber/sd-010-b-stranger-things-backend/pull/59)_
 
 ##### Chapter 30: Software Architecture
 
