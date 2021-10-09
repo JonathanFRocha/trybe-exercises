@@ -220,10 +220,9 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 30: Software Architecture
 
 - [x] 30-1: _Architecture – SOLID Principles_
-- [ ] 30-2: _ORM – App interface with database_
-- [ ] 30-3: _Software Architecture - DDD_
-- [ ] 30-4: _Tests Best Practices_
-- [ ] 30-3: _[Project – Blog API]()_
+- [x] 30-2: _ORM – App interface with database_
+- [ ] 30-3: _ORM – Associations_
+- [ ] 30-4: _[Project – Blog API]()_
 
 ##### Chapter 31: Sockets
 
