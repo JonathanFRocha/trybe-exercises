@@ -221,7 +221,7 @@ engineering, agile methodologies and soft skills.
 
 - [x] 30-1: _Architecture – SOLID Principles_
 - [x] 30-2: _ORM – App interface with database_
-- [ ] 30-3: _ORM – Associations_
+- [x] 30-3: _ORM – Associations_
 - [ ] 30-4: _[Project – Blog API]()_
 
 ##### Chapter 31: Sockets
