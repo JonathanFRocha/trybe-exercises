@@ -208,7 +208,7 @@ engineering, agile methodologies and soft skills.
 - [x] 28-1: _NodeJS – JWT - (JSON Web Token)_
 - [x] 28-2: _Files upload using Multer_
 - [x] 28-3: _Testing APIs using Integration Tests_
-- [x] 28-4: _[Project - Cookmaster](https://github.com/tryber/sd-010-b-store-manager/pull/86)_
+- [x] 28-4: _[Project - Cookmaster](https://github.com/tryber/sd-010-b-cookmaster/pull/75)_
 
 ##### Chapter 29: - Deployment
 
@@ -222,7 +222,7 @@ engineering, agile methodologies and soft skills.
 - [x] 30-1: _Architecture – SOLID Principles_
 - [x] 30-2: _ORM – App interface with database_
 - [x] 30-3: _ORM – Associations_
-- [ ] 30-4: _[Project – Blog API]()_
+- [x] 30-4: _[Project – Blog API](https://github.com/tryber/sd-010-b-project-blogs-api/pull/8)_
 
 ##### Chapter 31: Sockets
 
@@ -245,10 +245,10 @@ engineering, agile methodologies and soft skills.
 
 ##### Chapter 36: Python
 
-- [ ] 35-1: _Learning Python_
-- [ ] 35-2: _Tests and Exceptions_
-- [ ] 35-3: _Data Input and Output_
+- [ ] 36-1: _Learning Python_
+- [ ] 36-2: _Tests and Exceptions_
+- [ ] 36-3: _Data Input and Output_
 - [ ] 36-4: _Data Input and Output_
-- [ ] 35-5: _[Project - Tech news]()_
+- [ ] 36-5: _[Project - Tech news]()_
 
 # [...]
