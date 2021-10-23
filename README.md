@@ -226,9 +226,11 @@ engineering, agile methodologies and soft skills.
 
 ##### Chapter 31: Sockets
 
-- [ ] 31-1: _Sockets - TCP/UDP & NET_
-- [ ] 31-2: _Sockets - Socket.io_
-- [ ] 31-3: _[Project - Webchat]()_
+- [x] 31-1: _Sockets - MVC_
+- [x] 31-2: _Sockets - TCP/UDP & NET_
+- [x] 31-3: _Sockets - Sockets - Socket.io_
+- [ ] 31-4: _Sockets - Practicing Socket.io_
+- [ ] 31-5: _[Project - Webchat]()_
 
 ##### Chapter 34: Project
 
