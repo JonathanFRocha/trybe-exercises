@@ -229,28 +229,25 @@ engineering, agile methodologies and soft skills.
 - [x] 31-1: _Sockets - MVC_
 - [x] 31-2: _Sockets - TCP/UDP & NET_
 - [x] 31-3: _Sockets - Sockets - Socket.io_
-- [ ] 31-4: _Sockets - Practicing Socket.io_
-- [ ] 31-5: _[Project - Webchat]()_
+- [x] 31-4: _Sockets - Practicing Socket.io_
+- [x] 31-5: _[Project - Webchat](https://github.com/tryber/sd-010-b-project-webchat/pull/45)_
 
-##### Chapter 34: Project
+##### Chapter 32: Project
 
-- [ ] 32-1: _[Project - Trybeer V2]()_
+- [x] 32-1: _[Project - Trybeer V2](https://github.com/tryber/sd-010-b-project-webchat/pull/45)_
 
 ## 4th Subject: Computer Science :hourglass_flowing_sand:
 
-##### Chapter 35: Introduction – Computer Science
+##### Chapter 33: Python
 
-- [ ] 35-1: _Computer Architecture_
-- [ ] 35-2: _Network Architecture_
-- [ ] 35-3: _Computer Network and security tools_
-- [ ] 35-4: _[Project - Exploring Protocols]()_
+- [x] 33-1: _Learning Python_
+- [ ] 33-2: _Data Input and Output_
+- [ ] 33-3: _Tests and Exceptions_
+- [ ] 33-5: _[Project - Job Insights]()_
 
-##### Chapter 36: Python
+##### Chapter 34: Introduction – Computer Science
 
-- [ ] 36-1: _Learning Python_
-- [ ] 36-2: _Tests and Exceptions_
-- [ ] 36-3: _Data Input and Output_
-- [ ] 36-4: _Data Input and Output_
-- [ ] 36-5: _[Project - Tech news]()_
-
-# [...]
+- [ ] 34-1: _Computer Architecture_
+- [ ] 34-2: _Network Architecture_
+- [ ] 34-3: _Computer Network and security tools_
+- [ ] 34-4: _[Project - Exploring Protocols]()_
