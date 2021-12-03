@@ -241,8 +241,8 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 33: Python
 
 - [x] 33-1: _Learning Python_
-- [ ] 33-2: _Data Input and Output_
-- [ ] 33-3: _Tests and Exceptions_
+- [x] 33-2: _Data Input and Output_
+- [x] 33-3: _Tests and Exceptions_
 - [ ] 33-5: _[Project - Job Insights]()_
 
 ##### Chapter 34: Introduction – Computer Science
