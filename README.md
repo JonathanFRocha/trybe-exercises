@@ -243,11 +243,11 @@ engineering, agile methodologies and soft skills.
 - [x] 33-1: _Learning Python_
 - [x] 33-2: _Data Input and Output_
 - [x] 33-3: _Tests and Exceptions_
-- [ ] 33-5: _[Project - Job Insights]()_
+- [x] 33-4: _[Project - Job Insights](https://github.com/tryber/sd-010-b-project-job-insights/pull/63)_
 
-##### Chapter 34: Introduction – Computer Science
+##### Chapter 34: POO
 
-- [ ] 34-1: _Computer Architecture_
-- [ ] 34-2: _Network Architecture_
-- [ ] 34-3: _Computer Network and security tools_
-- [ ] 34-4: _[Project - Exploring Protocols]()_
+- [x] 34-1: _Introduction to POO_
+- [ ] 34-2: _Inheritance, Interfaces and Composition_
+- [ ] 34-3: _Design Patterns_
+- [ ] 34-4: _[Project - Stock Report]()_
