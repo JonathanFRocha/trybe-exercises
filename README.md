@@ -248,6 +248,34 @@ engineering, agile methodologies and soft skills.
 ##### Chapter 34: POO
 
 - [x] 34-1: _Introduction to POO_
-- [ ] 34-2: _Inheritance, Interfaces and Composition_
-- [ ] 34-3: _Design Patterns_
-- [ ] 34-4: _[Project - Stock Report]()_
+- [x] 34-2: _Inheritance, Interfaces and Composition_
+- [x] 34-3: _Design Patterns_
+- [x] 34-4: _[Project - Stock Report](https://github.com/tryber/sd-010-b-inventory-report/pull/43)_
+
+##### Chapter 35: Network and Web Scraping
+
+- [x] 35-1: _Network Architecture_
+- [x] 35-2: _Computer Networks, tools and security_
+- [x] 35-3: _Web Scraping_
+- [x] 35-4: _[Project - Tech News](https://github.com/tryber/sd-010-b-tech-news/pull/80)_
+
+##### Chapter 36: Algorithms
+
+- [x] 36-1: _Algorithm Complexity_
+- [x] 36-2: _Recursivity and Strategies to resolve problems_
+- [x] 36-3: _Search and Sorting algorithms_
+- [x] 36-4: _[Project - Algorithms](https://github.com/tryber/sd-010-b-project-algorithms/pull/42)_
+
+##### Chapter 37: Data Structures I: Arrays, Hashmaps and Sets
+
+- [x] 37-1: _Computers Architecture_
+- [x] 37-2: _Arrays_
+- [x] 37-3: _Hashmap and Dict_
+- [x] 37-4: _Set_
+- [x] 37-5: _[Project - Restaurant Orders](https://github.com/tryber/sd-010-b-restaurant-orders/pull/57)_
+
+##### Chapter 38: Data Structures II: Lists, Queues and Stacks
+
+- [x] 38-1: _Nodes and Chained Lists_
+- [x] 38-2: _Queues and Stacks_
+- [x] 38-3: _[Project - TING - Trybe is Not Google](https://github.com/tryber/sd-010-b-project-ting/pull/45)_
